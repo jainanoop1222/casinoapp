@@ -1,0 +1,8 @@
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Console\bin\Debug\Casino.CustomarModel.Console.exe.config
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Console\bin\Debug\Casino.CustomarModel.Console.exe
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Console\bin\Debug\Casino.CustomarModel.Console.pdb
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Console\bin\Debug\Casino.CustomarModel.Shared.dll
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Console\bin\Debug\Casino.CustomarModel.Shared.pdb
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Console\obj\Debug\Casino.CustomarModel.Console.csprojResolveAssemblyReference.cache
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Console\obj\Debug\Casino.CustomarModel.Console.exe
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Console\obj\Debug\Casino.CustomarModel.Console.pdb

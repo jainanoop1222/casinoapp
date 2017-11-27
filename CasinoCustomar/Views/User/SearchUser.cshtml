@@ -1,0 +1,45 @@
+﻿@using (Ajax.BeginForm("SearchUser", null, new AjaxOptions { UpdateTargetId = "MainElement", InsertionMode = InsertionMode.Replace, HttpMethod = "Post" }, new { id = "formSearch" }))
+{   <div>
+        <div>
+            <label style="margin-right:21px">Name</label>
+            <input type="text" name="nameSearch" id="nameSearch" style="margin-right:20px;margin-bottom:15px" />
+            <label style="margin-right:0px">Contact</label>
+            <input type="text" name="contactSearch" id="contactSearch" />
+        </div>
+        <div>
+            <label style="margin-right:10px;margin-bottom:15px">EmailId</label>
+            <input style="margin-right:30px"  type="text" name="emailSearch" id="emailSearch" />
+
+            <button  type="submit">Search</button>
+        </div>
+    </div>
+}
+
+@*<link rel="stylesheet" type="text/css" href="~/Content/Site.css">
+
+@using (Ajax.BeginForm("SearchUser", null, new AjaxOptions { UpdateTargetId = "MainElement", InsertionMode = InsertionMode.Replace, HttpMethod = "Post" }, new { id = "formSearch" }))
+{
+    <table class="table" id="chay">
+        <tr id="chay1">
+            <td id="chay2">
+                Name
+                <input type="text" name="nameSearch" id="nameSearch" />
+            </td>
+            <td id="chay3">
+                Contact
+                <input type="text" name="contactSearch" id="contactSearch" />
+            </td>
+        </tr>
+        <tr id="chay4">
+            <td id="chay5">
+                EmailId
+                <input type="text" name="emailSearch" id="emailSearch" />
+            </td>
+            <td id="chay6">
+                <button type="submit">Search</button>
+            </td>
+        </tr>
+    </table>
+
+}*@
+

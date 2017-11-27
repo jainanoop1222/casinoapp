@@ -1,0 +1,9 @@
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Business\bin\Debug\Casino.CustomarModel.Business.dll
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Business\bin\Debug\Casino.CustomarModel.Business.pdb
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Business\bin\Debug\Casino.CustomarModel.Shared.dll
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Business\bin\Debug\FluentValidation.dll
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Business\bin\Debug\Casino.CustomarModel.Shared.pdb
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Business\bin\Debug\FluentValidation.xml
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Business\obj\Debug\Casino.CustomarModel.Business.csprojResolveAssemblyReference.cache
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Business\obj\Debug\Casino.CustomarModel.Business.dll
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Business\obj\Debug\Casino.CustomarModel.Business.pdb

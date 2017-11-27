@@ -1,0 +1,4 @@
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Shared\bin\Debug\Casino.CustomarModel.Shared.dll
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Shared\bin\Debug\Casino.CustomarModel.Shared.pdb
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Shared\obj\Debug\Casino.CustomarModel.Shared.dll
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Shared\obj\Debug\Casino.CustomarModel.Shared.pdb

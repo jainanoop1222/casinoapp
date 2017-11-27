@@ -1,0 +1,12 @@
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.EntityDataModel\bin\Debug\Casino.CustomarModel.EntityDataModel.dll.config
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.EntityDataModel\bin\Debug\Casino.CustomarModel.EntityDataModel.dll
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.EntityDataModel\bin\Debug\Casino.CustomarModel.EntityDataModel.pdb
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.EntityDataModel\bin\Debug\Casino.CustomarModel.Shared.dll
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.EntityDataModel\bin\Debug\EntityFramework.dll
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.EntityDataModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.EntityDataModel\bin\Debug\Casino.CustomarModel.Shared.pdb
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.EntityDataModel\bin\Debug\EntityFramework.xml
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.EntityDataModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.EntityDataModel\obj\Debug\Casino.CustomarModel.EntityDataModel.csprojResolveAssemblyReference.cache
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.EntityDataModel\obj\Debug\Casino.CustomarModel.EntityDataModel.dll
+C:\Users\anoopjain\Downloads\AnoopJainMVC\Nagarro.EmployeePortalScratch\Nagarro.EmployeePortal\Nagarro.EmployeePortal.EntityDataModel\obj\Debug\Casino.CustomarModel.EntityDataModel.pdb

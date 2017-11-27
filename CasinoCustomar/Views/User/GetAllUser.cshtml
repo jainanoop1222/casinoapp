@@ -1,0 +1,124 @@
+﻿@model IEnumerable<CasinoCustomar.Models.UserModel>
+@*@model PagedList.IPagedList<CasinoCustomar.Models.UserModel>
+@using PagedList.Mvc;*@
+
+
+<link rel="stylesheet" type="text/css" href="~/Content/Site2.css">
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+
+<br/><br/>
+
+@Html.Partial("SearchUser")
+<table class="table" id="t01">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PersonID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contact)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Emailid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Balance)
+        </th>
+        <th>
+            Add Money
+        </th><th style="visibility:hidden">
+            @Html.DisplayNameFor(model => model.Blocked)
+        </th>
+        <th style="visibility:hidden">
+            @Html.DisplayNameFor(model => model.UniqueID)
+        </th>
+        
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PersonID)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfBirth)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Emailid)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Balance)
+            </td>
+
+            <td>
+                @*@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ })*@
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#@item.PersonID">+</button>
+                <div id="@item.PersonID" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        @using (Ajax.BeginForm("Recharge", new AjaxOptions { HttpMethod = "post" }))
+                        {
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Recharge Balance</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="hidden">
+                                        <input class="form-control" type="text" value="@item.PersonID" name="CustomerId" id="CustomerId" />
+                                    </div>
+                                    <label>Amount</label>
+                                    <input class="form-control" type="text" name="RechargeAmount" placeholder="Enter Amount" id="RechargeAmount" />
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" , class="btn btn-default">Recharge</button>
+
+                                </div>
+                            </div>
+
+                        }
+                    </div>
+                </div>
+                @*@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+            </td>
+            <td style="visibility:hidden">
+                @Html.DisplayFor(modelItem => item.Blocked)
+            </td>
+            <td style="visibility:hidden">
+                @Html.DisplayFor(modelItem => item.UniqueID)
+            </td>
+            
+        </tr>
+    }
+
+    
+
+</table>
+@*@for (int i = 1; i <= Model.Count() / 5+2; i++)
+{
+    <button onclick="GetAllUser(@i)">@i</button>
+}*@
+@*Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Index",
+    new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))*@

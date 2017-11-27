@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CasinoCustomerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UniqueID" />
+    </Key>
+    <Property Name="PersonID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DateOfBirth" Type="date" Nullable="false" />
+    <Property Name="Contact" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Emailid" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Balance" Type="int" Nullable="false" />
+    <Property Name="Blocked" Type="int" Nullable="false" />
+    <Property Name="UniqueID" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Image" Type="image" Nullable="false" />
+  </EntityType>
+  <Function Name="CasinoCustomer" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CustomerName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Contact" Type="nvarchar" Mode="In" />
+    <Parameter Name="EmailId" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="SearchCustomer" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CustomerName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Contact" Type="nvarchar" Mode="In" />
+    <Parameter Name="EmailId" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="CasinoCustomerModelStoreContainer">
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
